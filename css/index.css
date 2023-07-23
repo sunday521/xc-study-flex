@@ -42,6 +42,7 @@
 .nav li a:hover {
     border-bottom: 2px solid #00a4ff;
 }
+
 .search input {
     width: 412px;
     height: 41px;
@@ -50,6 +51,18 @@
     outline: 0;
     padding-left: 20px;
     border-radius: 20px;
+}
+.search {
+    position: relative;
+}
+.search button {
+    position: absolute;
+    top: 13px;
+    right: 20px;
+    width: 16px;
+    height: 16px;
+    background: url(../images/search.png);
+    border: 0;
 }
 
 .user {
@@ -238,6 +251,7 @@
 }
 
 .bd li {
+    position: relative;
     width: 228px;
     height: 271px;
     background-color: #fff;
@@ -251,6 +265,16 @@
     /* width: 228px; */
     height: 271px;
 }
+
+.bd li .hot {
+    position: absolute;
+    top: 4px;
+    right: -4px;
+    width: 40px;
+    height: 24px;
+    background: url(../images/hot.png);
+}
+
 
 .bd li h3 {
     /* 给h3一个高度，无论几行，它的高度固定，不会影响布局 */
