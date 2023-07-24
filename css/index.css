@@ -55,7 +55,7 @@
 .search {
     position: relative;
 }
-.search button {
+/* .search button {
     position: absolute;
     top: 13px;
     right: 20px;
@@ -63,6 +63,16 @@
     height: 16px;
     background: url(../images/search.png);
     border: 0;
+} */
+
+.search .icon-fangdajing {
+    position: absolute;
+    top: 13px;
+    right: 20px;
+    background-color: transparent;
+    color: #00a4ff;
+    border: 0;
+    cursor: pointer;
 }
 
 .user {
@@ -237,8 +247,9 @@
     text-align: right;
 }
 .hd .see-all span {
-    margin-left: 10px;
-    font-family: 'simsun';
+    /* font-family: 'simsun'; */
+    font-size: 14px;
+    margin-left: 3px;
 }
 /* .bd {
     height: 556px;
