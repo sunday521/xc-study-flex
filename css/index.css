@@ -115,6 +115,7 @@
     color: #fff;
     display: flex;
     justify-content: space-between;
+    /* transition: all .3s; */
 }
 .banner-l li a:hover {
     color: #00a4ff;
@@ -269,6 +270,13 @@
     /* margin-right: 14px; */
     /* 清除img空格 */
     font-size: 0;
+    transition: all .3s;
+}
+
+/* 0724 insert */
+.bd li:hover {
+    transform: translate(0,-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .1);
 }
 
 .bd li a {
